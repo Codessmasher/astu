@@ -168,7 +168,15 @@ ul li:hover .sub-m1 ul li a{
 ul li:hover .sub-m1 ul li a:hover{
     color: #FF3368
 }
-
+@media screen and (max-width:900px) and (min-width:450px){
+    html,body{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 100%;
+        width: 100vw;
+    }
+}
 footer{
     position: relative;
     display: grid;
