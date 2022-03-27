@@ -140,9 +140,39 @@ ul li{
     display: flex;
     float: right;
 }
+
+.sub-m1{
+    display: none;
+}
+.menu ul li:hover .sub-m1{
+    display:block;
+    height: 53px;
+    width: 200px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 127px;
+    background: transparent;
+    border: 1px solid red;
+}
+ul li:hover .sub-m1 ul{
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+ul li:hover .sub-m1 ul li{
+    padding: 10px; 
+}
+ul li:hover .sub-m1 ul li a{   
+    color: #23f774;
+}
+ul li:hover .sub-m1 ul li a:hover{
+    color: #FF3368
+}
+
 footer{
     position: relative;
     display: grid;
     place-items: center;
-    background: rgb(190, 231, 6);
+    background: rgb(37, 218, 13);
+    color: rgb(17, 14, 190);
 }
